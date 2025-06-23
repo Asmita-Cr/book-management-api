@@ -1,27 +1,15 @@
-<<<<<<< HEAD
-# 📚 Book Recommendation + Review API (No JavaScript Version)
+# 📚 Book Recommendation
 
 ## 📌 Description
 A full-stack project using only HTML forms and Flask to add books, review them, and get recommendations.
 
-## 🔧 Tech Stack
-=======
-# Book Recommendation + Review API 
-
-## Description
-A full-stack project using only HTML forms and Flask to add books, review them, and get recommendations.
-
 ## Tech Stack
->>>>>>> db4d6f69b6ea8fdb14eaa591cb0e91a33203f8eb
 - Flask (Python)
 - SQLite
 - HTML, CSS
+- Pytest + Coverage
 
-<<<<<<< HEAD
-## ▶️ Running the Project
-=======
 ## Running the Project
->>>>>>> db4d6f69b6ea8fdb14eaa591cb0e91a33203f8eb
 1. Clone the repo and navigate to the folder
 2. Create virtual env and install dependencies:
 ```bash
@@ -33,11 +21,6 @@ python app.py
 ```
 4. Visit `http://localhost:5000`
 
-<<<<<<< HEAD
-## 🔗 Key Endpoints
-- `GET /` → Home page with form and book list
-- `POST /books` → Add new book via form
-=======
 ## Key Endpoints
 
 | Method   | Endpoint          | Description                           |
@@ -67,6 +50,7 @@ The Book model has:
 - Flask
 - SQLite
 - HTML/CSS (Jinja templates)
+- Pytest + Coverage
 
 ## How to run the server
 -install the dependencies
@@ -113,4 +97,17 @@ Any frontend or script using HTTP libraries like fetch, axios, or requests
 
 5. DELETE A BOOK: in the end add id of the book you want to delete
    =curl.exe -X DELETE http://localhost:5000/api/books/2
->>>>>>> db4d6f69b6ea8fdb14eaa591cb0e91a33203f8eb
+
+API Integrated:
+This project includes a RESTful Book Recommendation API built with Flask. It supports full CRUD operations, along with a /recommend endpoint for generating mock recommendations based on a query
+
+How to Run Tests:
+pytest --cov=.
+
+Test Coverage Screenshot:
+![image](https://github.com/user-attachments/assets/d4f84586-e3e4-4866-8989-982fb2a48476)
+![image](https://github.com/user-attachments/assets/718221e5-8ae2-4414-b32a-8f9f5d70efaf)
+Thank You!!
+
+
+
